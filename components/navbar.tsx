@@ -19,7 +19,7 @@ export const Navbar = async () => {
 
   return (
     <div className="border-b">
-      <div className="flex items-center p-4">
+      <div className="flex items-center px-8 py-4">
         <StoreSwitcher items={stores} />
         <MainNav className="mx-6" />
         <div className="ml-auto flex items-center space-x-4">
